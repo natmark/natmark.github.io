@@ -35,7 +35,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			color: #b3004c !important;
 		}
 
 	strong, b {
@@ -187,7 +187,7 @@
 	}
 
 	header.major h2 {
-		color: #4acaa8;
+		color: #b3004c;
 		font-size: 3.5em;
 	}
 
@@ -251,7 +251,7 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #4acaa8;
+			border-color: #b3004c;
 		}
 
 	.select-wrapper {
@@ -362,7 +362,7 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #4acaa8;
+			border-color: #b3004c;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -554,7 +554,7 @@
 				}
 
 				ul.feature-icons li:before {
-					background: #4acaa8;
+					background: #b3004c;
 					border-radius: 100%;
 					color: #ffffff;
 					display: block;
@@ -843,7 +843,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #4acaa8;
+			background-color: #b3004c;
 			color: #ffffff !important;
 		}
 
@@ -913,7 +913,7 @@
 /* Header */
 
 	#header {
-		background: #4acaa8;
+		background: #b3004c;
 		color: #d1f1e9;
 		height: 100%;
 		position: fixed;
@@ -987,7 +987,7 @@
 		}
 
 			#header > nav ul li {
-				border-top: solid 2px #5ccfb0;
+				border-top: solid 2px #ff0072;
 				display: block;
 				padding: 0;
 			}
@@ -1007,7 +1007,7 @@
 
 					#header > nav ul li a.active {
 						background: #fff;
-						color: #4acaa8 !important;
+						color: #b3004c !important;
 					}
 
 				#header > nav ul li:first-child {
