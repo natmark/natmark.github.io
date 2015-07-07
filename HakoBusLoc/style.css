@@ -1,0 +1,41 @@
+html{
+    background-color:#50B0EF;
+    color:#ffffff;
+}
+body{
+}
+#twitImage{
+    float:left;
+    margin-top:50px;
+    margin-left:50px;
+    padding-bottom:80px;
+    height:450px;
+    width:250px;
+}
+#textAria{
+    float:right;
+    margin-top:50px;
+    padding-top:150px;
+    margin-right:50px;
+    height:150px;
+}
+#container{
+    background-color:#ffffff;
+    color:#50B0EF;
+    float:right;
+    text-align:left;
+    width:80%;
+    margin-right:-60px;
+    margin-top:60px;
+    height:auto;
+    padding-left:22px;
+    font-size:25px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+#footer {
+    clear:both;
+    text-align: center;
+    
+    width: 100%;
+}
