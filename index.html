@@ -11,8 +11,9 @@
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   </head>
   <body>
+    <!--Navigation-->
     <nav class="pink accent-3" role="navigation">
-      <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">natmark</a>
+      <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo" style="font-size:22px;">natmark</a>
         <ul class="right hide-on-med-and-down">
           <li><a href="#">Navbar Link</a></li>
         </ul>
@@ -23,6 +24,7 @@
       </div>
     </nav>
 
+    <!--Profile Card-->
     <div class="section no-pad-bot" id="index-banner">
       <div class="container">
         <br><br>
@@ -36,32 +38,39 @@
           </div>
         -->
 
-        <div class="card hoverable learge">
+        <div class="card hoverable small">
           <div class="card-image">
-            <img src="img/banner.jpg">
-            <span class="card-title">Welcome!</span>
+            <img src="img/banner.jpg" style="opacity:0.6;">
+            <span class="card-title pink-text text-darken-1" style="font-size:30px;">Welcome!</span>
           </div>
           <div class="card-content">
             <p>このサイトは、AtsuyaSato(<a href="https://twitter.com/n_atmark">@n_atmark</a>)のポートフォリオサイトです。</p>
-          </div>
-         
-          <div class="card-content">
             <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
           </div>
-
-          <!-- カードコンテンツの中身-->
+          <!--contents of card-->
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
             <p>Here is some more information about this product that is only revealed once clicked on.</p>
           </div>
-          <br></br>
         </div>
-
-
       </div>
     </div>
+    
+    <br>
 
-    <!--  Scripts-->
+    <!--Footer-->
+    <footer class="page-footer">
+      <div class="footer-copyright">
+        <div class="container">
+        © 2016 AtsuyaSato,All rights reserved.
+        
+        <a class="grey-text text-lighten-4 right" href="http://materializecss.com/">Powered by Materialize</a>
+
+        </div>
+      </div>
+    </footer>
+
+    <!--Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
