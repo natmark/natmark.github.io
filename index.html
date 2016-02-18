@@ -12,8 +12,8 @@
   </head>
   <body>
     <!--Navigation-->
-    <nav class="pink accent-3" role="navigation">
-      <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo" style="font-size:22px;">natmark</a>
+    <nav class="pink accent-4" role="navigation">
+      <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo" style="font-size:22px;">ホーム</a>
         <ul class="right hide-on-med-and-down">
           <li><a href="#">Navbar Link</a></li>
         </ul>
@@ -24,28 +24,21 @@
       </div>
     </nav>
 
+    <!--Pallalex-->
+  <div class="parallax-container">
+    <div class="parallax"><img src="img/parallax1.jpg"></div>
+    
     <!--Profile Card-->
     <div class="section no-pad-bot" id="index-banner">
       <div class="container">
         <br><br>
-        <!--
-          <h1 class="header center orange-text">Welcome!</h1>
-          <div class="row center">
-            <h5 class="header col s12 light">ポートフォリオサイト</h5>
-          </div>
-          <div class="row center">
-            <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
-          </div>
-        -->
-
         <div class="card hoverable small">
           <div class="card-image">
             <img src="img/banner.jpg" style="opacity:0.6;">
-            <span class="card-title pink-text text-darken-1" style="font-size:30px;">Welcome!</span>
           </div>
           <div class="card-content">
-            <p>このサイトは、AtsuyaSato(<a href="https://twitter.com/n_atmark">@n_atmark</a>)のポートフォリオサイトです。</p>
             <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
+            <p><span class="card-title pink-text text-darken-4">Welcome to my portfolio page!!</span></p>
           </div>
           <!--contents of card-->
           <div class="card-reveal">
@@ -54,14 +47,52 @@
               <p>公立はこだて未来大学 システム情報科学部</p>
               <p>佐藤　敦也</p>
               <br>
-              <p>Mail:b1015006@fun.ac.jp</p>
-              <p>GitHub:github.com/natmark</p>
+              <p>Mail:<a href="mailto:b1015006@fun.ac.jp">b1015006@fun.ac.jp</a></p>
+              <p>GitHub:<a href="https://github.com/natmark">github.com/natmark</a></p>
             </blockquote>
           </div>
         </div>
       </div>
     </div>
-    <br>
+
+  </div>
+
+  <div class="section white">
+    <div class="row container">
+      <h3 class="header">Activity</h3>
+      <hr></hr>
+      <a href="#!" class="btn pink accent-4" onclick="Materialize.showStaggeredList('#staggered-test')">Click Me</a>
+        <ul id="staggered-test">
+          <li style="opacity: 0;">
+            <h4><a href="#">@ITにインタビュー記事が掲載されました！</a></h4>
+            <p>[NEW]2015/10/20</p>
+          </li>
+          <li style="opacity: 0;">
+            <h5><a href="#">高校生アプリ開発サマーキャンプでプレゼンをしました</a></h5>
+            <p>2015/8/21</p>
+          </li>
+          <li style="opacity: 0;">
+            <h5><a href="#">函館バスロケーションbot【非公式】のBeta版を公開しました</a></h5>
+            <p>2015/7/7</p>
+          </li>
+          <li style="opacity: 0;">
+            <h5><a href="#">FunBus.appのBeta1.0版を公開</a></h5>
+            <p>2015/6/26</p>
+          </li>
+          <li style="opacity: 0;">
+            <h5><a href="#">SPAJAM 札幌予選に参加しました!</a></h5>
+            <p>2015/6/6</p>
+          </li>
+          <li style="opacity: 0;">
+            <h5><a href="#">てくふぁんでLTしました！</a></h5>
+            <p>2015/4/14</p>
+          </li>
+          <li style="opacity: 0;">
+            <p class="right"><a href="#">and more...</a></p>
+          </li>
+        </ul>
+    </div>
+  </div>
 
     <!--Footer-->
     <footer class="page-footer">
@@ -79,5 +110,6 @@
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
+    <script src="home.js"></script>
   </body>
 </html>
