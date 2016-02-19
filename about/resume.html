@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="jp">
-  <head> 
+  <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
     <title>natmark</title>
@@ -9,8 +9,10 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="resume.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   </head>
   <body>
+
     <!--Navigation-->
     <nav class="pink accent-4" role="navigation">
       <div class="nav-wrapper container">
@@ -29,7 +31,7 @@
         </ul>
         <ul class="right hide-on-med-and-down">
           <li><a href="index.html">About</a></li>
-        </ul>   
+        </ul>
         <ul id="nav-mobile" class="side-nav">
           <li><a href="../index.html">Home</a></li>
           <li><a href="index.html">About</a></li>
@@ -38,7 +40,7 @@
           <li><a href="#">Other Resource</a></li>
           <li><a href="#">Portfolio</a></li>
         </ul>
-        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>      
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
       </div>
     </nav>
   <nav>
@@ -51,8 +53,21 @@
     </div>
   </nav>
 
+  <div class="fixing-base">
+    <div class="fixing-box">
+      <div class="col hide-on-small-only right m3 l2">
+        <ul class="section table-of-contents">
+          <li><a href="#test">資格・検定等</a></li>
+          <li><a href="#contest">各種競技・コンクール等</a></li>
+          <li><a href="#study">ハッカソン参加歴等</a></li>
+          <li><a href="#develop">開発したもの</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
   <div class="section white">
-    <div class="row container">
+    <div class="row container" id="test">
       <h4 class="header blue-text text-accent-3">資格・検定・段位等の取得</h4>
       <div class="col s9">
         <h5 class="header pink-text text-accent-3">弓道</h5>
@@ -80,7 +95,7 @@
         </ul>
       </div>
     </div>
-      <div class="row container">
+      <div class="row container" id="contest">
         <h4 class="header blue-text text-accent-3">各種競技・コンクール・展覧会・懸賞論文等参加歴</h4>
         <div class="col s9">
           <h5 class="header pink-text text-accent-3">英語</h5>
@@ -101,7 +116,7 @@
           </ul>
         </div>
       </div>
-      <div class="row container">
+      <div class="row container" id="study">
         <h4 class="header blue-text text-accent-3">ハッカソン・勉強会等参加歴</h4>
         <div class="col s9">
           <h5 class="header pink-text text-accent-3">国際</h5>
@@ -118,7 +133,7 @@
           </ul>
         </div>
       </div>
-      <div class="row container">
+      <div class="row container" id="develop">
         <h4 class="header blue-text text-accent-3">開発したものなどなど歴</h4>
         <div class="col s9">
           <h5 class="header pink-text text-accent-3">Objective-C</h5>
@@ -180,20 +195,18 @@
             <li class="collection-item">集合知プログラミングもちょっと勉強(python)</li>
             <li class="collection-item">一応このサイト:natmark.github.ioの開発(html+css+bootstrap)</li>
             <li class="collection-item">情報表現入門サイトの開発(html+css+js)</li>
-            <li class="collection-item">ゲームAIもちょっと触ったり(Processing/C++)</li>           
+            <li class="collection-item">ゲームAIもちょっと触ったり(Processing/C++)</li>
           </ul>
         </div>
       </div>
     </div>
-  </div>  
-
-
+  </div>
     <!--Footer-->
     <footer class="page-footer">
       <div class="footer-copyright">
         <div class="container">
         © 2016 AtsuyaSato,All rights reserved.
-        
+
         <a class="grey-text text-lighten-4 right" href="http://materializecss.com/">Powered by Materialize</a>
 
         </div>
@@ -204,5 +217,6 @@
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="../js/materialize.js"></script>
     <script src="../js/init.js"></script>
+    <script src="resume.js"></script>
   </body>
 </html>
