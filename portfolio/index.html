@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="inverder.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <script src="processing.js"></script>
     <script type="text/javascript">
     // convenience function to get the id attribute of generated sketch html element
@@ -83,28 +84,32 @@
     <div class="section blue">
       <div class="row container">
         <h5 class="header white-text text-accent-3">Processingでインベーダーゲームを作りました</h5>
-        <canvas id="inverders" data-processing-sources="inverders.pde"
-        width="100" height="100">
-          <p>Your browser does not support the canvas tag.</p>
-          <!--
-        	  ■■         ■■    ___  __    _  __   __  _______  ______    ______   _______  ______
-        	    ■■     ■■    |   ||  |  | ||  | |  ||       ||    _ |  |      | |       ||    _ |
-        	   ■■■■■■■■■■■   |   ||   |_| ||  |_|  ||    ___||   | ||  |  _    ||    ___||   | ||
-        	  ■■  ■■■■■  ■■  |   ||       ||       ||   |___ |   |_||_ | | |   ||   |___ |   |_||_
-        	 ■■■■■■■■■■■■■■■ |   ||  _    ||       ||    ___||    __  || |_|   ||    ___||    __  |
-        	 ■  ■■■■■■■■■  ■ |   || | |   | |     | |   |___ |   |  | ||       ||   |___ |   |  | |
-        	 ■  ■       ■  ■ |___||_|  |__|  |___|  |_______||___|  |_||______| |_______||___|  |_|
-        	     ■■   ■■
-        	-->
-        </canvas>
-        <noscript>
-          <p>JavaScript is required to view the contents of this page.</p>
-        </noscript>
-        <h3 class="white-text">inverders</h3>
-        <p id="description" class="white-text">
-        Built with <a href="http://processing.org" title="Processing" style="text-decoration:underline" class="white-text">Processing</a>
-        and <a href="http://processingjs.org" title="Processing.js" style="text-decoration:underline" class="white-text">Processing.js</a>
-        </p>
+        <div class="verder">
+          <canvas id="inverders" data-processing-sources="inverders.pde"
+          width="100" height="100">
+            <p>Your browser does not support the canvas tag.</p>
+            <!--
+          	  ■■         ■■    ___  __    _  __   __  _______  ______    ______   _______  ______
+          	    ■■     ■■    |   ||  |  | ||  | |  ||       ||    _ |  |      | |       ||    _ |
+          	   ■■■■■■■■■■■   |   ||   |_| ||  |_|  ||    ___||   | ||  |  _    ||    ___||   | ||
+          	  ■■  ■■■■■  ■■  |   ||       ||       ||   |___ |   |_||_ | | |   ||   |___ |   |_||_
+          	 ■■■■■■■■■■■■■■■ |   ||  _    ||       ||    ___||    __  || |_|   ||    ___||    __  |
+          	 ■  ■■■■■■■■■  ■ |   || | |   | |     | |   |___ |   |  | ||       ||   |___ |   |  | |
+          	 ■  ■       ■  ■ |___||_|  |__|  |___|  |_______||___|  |_||______| |_______||___|  |_|
+          	     ■■   ■■
+          	-->
+          </canvas>
+          <noscript>
+            <p>JavaScript is required to view the contents of this page.</p>
+          </noscript>
+          <h3 class="white-text">inverders</h3>
+          <p id="description" class="white-text">
+          Built with <a href="http://processing.org" title="Processing" style="text-decoration:underline" class="white-text">Processing</a>
+          and <a href="http://processingjs.org" title="Processing.js" style="text-decoration:underline" class="white-text">Processing.js</a>
+          </p>
+        </div>
+        <br>
+        <p class="white-text"><a href="inverder.html" style="text-decoration:underline" class="white-text">こちらからプレイできます。</a></p>
       </div>
     </div>
     <!--Footer-->
