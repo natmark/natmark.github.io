@@ -1,123 +1,92 @@
 <!DOCTYPE html>
 <html lang="jp">
-  <head> 
+  <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
     <title>natmark</title>
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   </head>
   <body>
     <!--Navigation-->
     <nav class="pink accent-4" role="navigation">
-      <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo" style="font-size:22px;">home</a>
+      <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo" style="font-size:22px;">Interest</a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#">About</a></li>
+          <li><a href="../otherresource/index.html">Other Resource</a></li>
         </ul>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#">Interest</a></li>
+          <li><a href="../article/index.html">Article</a></li>
         </ul>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#">Article</a></li>
+          <li><a href="../portfolio/index.html">Portfolio</a></li>
         </ul>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#">Other Resource</a></li>
+          <li><a href="../interest/index.html">Interest</a></li>
         </ul>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#">Portfolio</a></li>
+          <li><a href="../about/index.html">About</a></li>
         </ul>
-
         <ul id="nav-mobile" class="side-nav">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Interest</a></li>
-          <li><a href="#">Article</a></li>
-          <li><a href="#">Other Resource</a></li>
-          <li><a href="#">Portfolio</a></li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about/index.html">About</a></li>
+          <li><a href="../interest/index.html">Interest</a></li>
+          <li><a href="../portfolio/index.html">Portfolio</a></li>
+          <li><a href="../article/index.html">Article</a></li>
+          <li><a href="../otherresource/index.html">Other Resource</a></li>
         </ul>
 
         <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
       </div>
     </nav>
 
-    <!--Pallalex-->
-  <div class="parallax-container">
-    <div class="parallax"><img src="img/parallax1.jpg"></div>
-    
-    <!--Profile Card-->
-    <div class="section no-pad-bot" id="index-banner">
-      <div class="container">
-        <br><br>
-        <div class="card hoverable small">
-          <div class="card-image">
-            <img src="img/banner.jpg" style="opacity:0.6;">
-          </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
-            <p><span class="card-title pink-text text-darken-4">Welcome to my portfolio page!!</span></p>
-          </div>
-          <!--contents of card-->
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">About me<i class="material-icons right">close</i></span>
-            <blockquote>
-              <p>公立はこだて未来大学 システム情報科学部</p>
-              <p>佐藤　敦也</p>
-              <br>
-              <p>Mail:<a href="mailto:b1015006@fun.ac.jp">b1015006@fun.ac.jp</a></p>
-              <p>GitHub:<a href="https://github.com/natmark">github.com/natmark</a><span class="right"><a href="#">detail</a></span></p>
-            </blockquote>
-          </div>
+    <nav>
+      <div class="nav-wrapper container">
+        <div class="col s12">
+          <a href="../index.html" class="breadcrumb">Home</a>
+          <a href="#!" class="breadcrumb">Interest</a>
         </div>
       </div>
-    </div>
+    </nav>
 
-  </div>
+      <div class="section white">
+        <div class="row container">
+          <h2 class="header pink-text text-accent-3">Interest</h2>
+          <hr></hr>
+          <br>
+          <p>Java</p>
+          <p>node.js</p>
+          <p>Lisp</p>
+          <p>javascript</p>
+          <p>Processing</p>
+          <p>ruby</p>
+          <p>python</p>
+          <p>Objective-C</p>
+          <p>Swift</p>
+          <p>R</p>
+          <p>C</p>
+          <br>
+          <p>Git</p>
+          <p>vim</p>
+          <p>Unity</p>
+          <p>CHINEMA4D</p>
+          <br>
+          <p>FAB</p>
+          <p>LeapMotion</p>
+          <p>arduino</p>
+          <p>RasberryPi</p>
+        </div>
+      </div>
 
-  <div class="section white">
-    <div class="row container">
-      <h3 class="header">Activity</h3>
-      <hr></hr>
-      <a href="#!" class="btn pink accent-4" onclick="Materialize.showStaggeredList('#staggered-test')">Click Me</a>
-        <ul id="staggered-test">
-          <li style="opacity: 0;">
-            <h4><a href="#">@ITにインタビュー記事が掲載されました！</a></h4>
-            <p>[NEW]2015/10/20</p>
-          </li>
-          <li style="opacity: 0;">
-            <h5><a href="#">高校生アプリ開発サマーキャンプでプレゼンをしました</a></h5>
-            <p>2015/8/21</p>
-          </li>
-          <li style="opacity: 0;">
-            <h5><a href="#">函館バスロケーションbot【非公式】のBeta版を公開しました</a></h5>
-            <p>2015/7/7</p>
-          </li>
-          <li style="opacity: 0;">
-            <h5><a href="#">FunBus.appのBeta1.0版を公開</a></h5>
-            <p>2015/6/26</p>
-          </li>
-          <li style="opacity: 0;">
-            <h5><a href="#">SPAJAM 札幌予選に参加しました!</a></h5>
-            <p>2015/6/6</p>
-          </li>
-          <li style="opacity: 0;">
-            <h5><a href="#">てくふぁんでLTしました！</a></h5>
-            <p>2015/4/14</p>
-          </li>
-          <li style="opacity: 0;">
-            <p class="right"><a href="#">and more...</a></p>
-          </li>
-        </ul>
-    </div>
-  </div>
 
     <!--Footer-->
     <footer class="page-footer">
       <div class="footer-copyright">
         <div class="container">
         © 2016 AtsuyaSato,All rights reserved.
-        
+
         <a class="grey-text text-lighten-4 right" href="http://materializecss.com/">Powered by Materialize</a>
 
         </div>
@@ -126,8 +95,7 @@
 
     <!--Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.js"></script>
-    <script src="js/init.js"></script>
-    <script src="home.js"></script>
+    <script src="../js/materialize.js"></script>
+    <script src="../js/init.js"></script>
   </body>
 </html>

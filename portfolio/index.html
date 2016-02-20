@@ -1,123 +1,118 @@
 <!DOCTYPE html>
 <html lang="jp">
-  <head> 
+  <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <meta name="Generator" content="Processing" />
+
     <title>natmark</title>
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <script src="processing.js"></script>
+    <script type="text/javascript">
+    // convenience function to get the id attribute of generated sketch html element
+    function getProcessingSketchId () { return 'inverders'; }
+    </script>
   </head>
   <body>
     <!--Navigation-->
     <nav class="pink accent-4" role="navigation">
-      <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo" style="font-size:22px;">home</a>
+      <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo" style="font-size:22px;">Portfolio</a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#">About</a></li>
+          <li><a href="../otherresource/index.html">Other Resource</a></li>
         </ul>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#">Interest</a></li>
+          <li><a href="../article/index.html">Article</a></li>
         </ul>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#">Article</a></li>
+          <li><a href="../portfolio/index.html">Portfolio</a></li>
         </ul>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#">Other Resource</a></li>
+          <li><a href="../interest/index.html">Interest</a></li>
         </ul>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#">Portfolio</a></li>
+          <li><a href="../about/index.html">About</a></li>
         </ul>
-
         <ul id="nav-mobile" class="side-nav">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Interest</a></li>
-          <li><a href="#">Article</a></li>
-          <li><a href="#">Other Resource</a></li>
-          <li><a href="#">Portfolio</a></li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about/index.html">About</a></li>
+          <li><a href="../interest/index.html">Interest</a></li>
+          <li><a href="../portfolio/index.html">Portfolio</a></li>
+          <li><a href="../article/index.html">Article</a></li>
+          <li><a href="../otherresource/index.html">Other Resource</a></li>
         </ul>
-
         <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
       </div>
     </nav>
 
-    <!--Pallalex-->
-  <div class="parallax-container">
-    <div class="parallax"><img src="img/parallax1.jpg"></div>
-    
-    <!--Profile Card-->
-    <div class="section no-pad-bot" id="index-banner">
-      <div class="container">
-        <br><br>
-        <div class="card hoverable small">
-          <div class="card-image">
-            <img src="img/banner.jpg" style="opacity:0.6;">
-          </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
-            <p><span class="card-title pink-text text-darken-4">Welcome to my portfolio page!!</span></p>
-          </div>
-          <!--contents of card-->
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">About me<i class="material-icons right">close</i></span>
-            <blockquote>
-              <p>公立はこだて未来大学 システム情報科学部</p>
-              <p>佐藤　敦也</p>
-              <br>
-              <p>Mail:<a href="mailto:b1015006@fun.ac.jp">b1015006@fun.ac.jp</a></p>
-              <p>GitHub:<a href="https://github.com/natmark">github.com/natmark</a><span class="right"><a href="#">detail</a></span></p>
-            </blockquote>
-          </div>
+    <nav>
+      <div class="nav-wrapper container">
+        <div class="col s12">
+          <a href="../index.html" class="breadcrumb">Home</a>
+          <a href="#!" class="breadcrumb">Portfolio</a>
         </div>
+      </div>
+    </nav>
+    <div class="section white">
+      <div class="row container">
+        <h2 class="header pink-text text-accent-3">Portfolio</h2>
+      </div>
+    </div>
+    <div class="section green">
+      <div class="row container">
+        <h5 class="header white-text text-accent-3">Processing問題集</h5>
+        <p class="white-text">有志でProcessingのチェックテスト問題を作成しています。</p>
+        <br>
+        <p class="white-text"><a href="processingTest.html" style="text-decoration:underline" class="white-text">問題集はこちら</a></p>
       </div>
     </div>
 
-  </div>
-
-  <div class="section white">
-    <div class="row container">
-      <h3 class="header">Activity</h3>
-      <hr></hr>
-      <a href="#!" class="btn pink accent-4" onclick="Materialize.showStaggeredList('#staggered-test')">Click Me</a>
-        <ul id="staggered-test">
-          <li style="opacity: 0;">
-            <h4><a href="#">@ITにインタビュー記事が掲載されました！</a></h4>
-            <p>[NEW]2015/10/20</p>
-          </li>
-          <li style="opacity: 0;">
-            <h5><a href="#">高校生アプリ開発サマーキャンプでプレゼンをしました</a></h5>
-            <p>2015/8/21</p>
-          </li>
-          <li style="opacity: 0;">
-            <h5><a href="#">函館バスロケーションbot【非公式】のBeta版を公開しました</a></h5>
-            <p>2015/7/7</p>
-          </li>
-          <li style="opacity: 0;">
-            <h5><a href="#">FunBus.appのBeta1.0版を公開</a></h5>
-            <p>2015/6/26</p>
-          </li>
-          <li style="opacity: 0;">
-            <h5><a href="#">SPAJAM 札幌予選に参加しました!</a></h5>
-            <p>2015/6/6</p>
-          </li>
-          <li style="opacity: 0;">
-            <h5><a href="#">てくふぁんでLTしました！</a></h5>
-            <p>2015/4/14</p>
-          </li>
-          <li style="opacity: 0;">
-            <p class="right"><a href="#">and more...</a></p>
-          </li>
-        </ul>
+    <div class="section pink">
+      <div class="row container">
+        <h5 class="header white-text text-accent-3">函館バスルート検索アプリ「はこバス」</h5>
+        <p class="white-text">函館バスのルート検索ができるiOSアプリを開発しています。</p>
+        <br>
+        <p class="white-text"><a href="https://docs.google.com/forms/d/1Kc8aFvTWNlXtsViX80M-0ko4Tt8OmvAM8xeor_z2qw0/viewform" style="text-decoration:underline" class="white-text">βテスター申請はこちら</a></p>
+      </div>
     </div>
-  </div>
 
+
+    <div class="section blue">
+      <div class="row container">
+        <h5 class="header white-text text-accent-3">Processingでインベーダーゲームを作りました</h5>
+        <canvas id="inverders" data-processing-sources="inverders.pde"
+        width="100" height="100">
+          <p>Your browser does not support the canvas tag.</p>
+          <!--
+        	  ■■         ■■    ___  __    _  __   __  _______  ______    ______   _______  ______
+        	    ■■     ■■    |   ||  |  | ||  | |  ||       ||    _ |  |      | |       ||    _ |
+        	   ■■■■■■■■■■■   |   ||   |_| ||  |_|  ||    ___||   | ||  |  _    ||    ___||   | ||
+        	  ■■  ■■■■■  ■■  |   ||       ||       ||   |___ |   |_||_ | | |   ||   |___ |   |_||_
+        	 ■■■■■■■■■■■■■■■ |   ||  _    ||       ||    ___||    __  || |_|   ||    ___||    __  |
+        	 ■  ■■■■■■■■■  ■ |   || | |   | |     | |   |___ |   |  | ||       ||   |___ |   |  | |
+        	 ■  ■       ■  ■ |___||_|  |__|  |___|  |_______||___|  |_||______| |_______||___|  |_|
+        	     ■■   ■■
+        	-->
+        </canvas>
+        <noscript>
+          <p>JavaScript is required to view the contents of this page.</p>
+        </noscript>
+        <h3 class="white-text">inverders</h3>
+        <p id="description" class="white-text">
+        Built with <a href="http://processing.org" title="Processing" style="text-decoration:underline" class="white-text">Processing</a>
+        and <a href="http://processingjs.org" title="Processing.js" style="text-decoration:underline" class="white-text">Processing.js</a>
+        </p>
+      </div>
+    </div>
     <!--Footer-->
     <footer class="page-footer">
       <div class="footer-copyright">
         <div class="container">
         © 2016 AtsuyaSato,All rights reserved.
-        
+
         <a class="grey-text text-lighten-4 right" href="http://materializecss.com/">Powered by Materialize</a>
 
         </div>
@@ -126,8 +121,7 @@
 
     <!--Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.js"></script>
-    <script src="js/init.js"></script>
-    <script src="home.js"></script>
+    <script src="../js/materialize.js"></script>
+    <script src="../js/init.js"></script>
   </body>
 </html>
