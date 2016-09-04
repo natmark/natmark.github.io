@@ -1,7 +1,0 @@
-@media screen and (max-width: 900px) {
-.verder { display: block; }
-}
-
-@media screen and (max-width: 890px) {
-.verder { display: none; }
-}

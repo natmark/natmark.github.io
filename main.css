@@ -1,0 +1,15 @@
+body {
+	position: relative;
+    width:100%;
+    margin:0;
+    padding:0;
+    color:#666;
+    font-family:Arial, sans-serif;
+    line-height: 18px;
+    background: #fff;
+}
+header {
+	margin: 0;
+	padding: 0;
+	background: #A0A0FF;
+}
