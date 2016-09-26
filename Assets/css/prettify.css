@@ -1,0 +1,45 @@
+.com {
+      color: #93A1A1;
+}
+.lit {
+      color: #195F91;
+}
+.pun, .opn, .clo {
+      color: #93A1A1;
+}
+.fun {
+      color: #DC322F;
+}
+.str, .atv {
+      color: #DD1144;
+}
+.kwd, .linenums .tag {
+      color: #1E347B;
+}
+.typ, .atn, .dec, .var {
+      color: teal;
+}
+.pln {
+      color: #48484C;
+}
+.prettyprint {
+      background-color: #F7F7F9;
+      border: 1px solid #E1E1E8;
+      padding: 8px;
+    font-size:0.6em;
+}
+.prettyprint.linenums {
+      box-shadow: 41px 0 0 #FBFBFC inset, 41px 0 0 #FFFFFF inset;
+}
+ol.linenums {
+      margin: 0 0 0 0px;
+}
+ol.linenums li {
+  color: #93A1A1;
+  line-height: 16px;
+  padding-left: 12px;
+  text-shadow: 0 1px 0 #FFFFFF;
+}
+li.L0, li.L1, li.L2, li.L3,
+li.L5, li.L6, li.L7, li.L8
+{ list-style-type: decimal !important }
