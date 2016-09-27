@@ -24,20 +24,49 @@ h6 {
     background:linear-gradient(75deg, #E4A972, #9941D8);
     border-bottom: none;
 }
-.topnav {
-    font-size: 14px; 
+.navbar-collapse{
+    border-top: none;
+}
+/* navbar hover,focus時のテキストカラー */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color:#9941D8;
+    background-color:rgba(255,255,255,0.7);
+}
+@media (max-width:767px) {
+    /* navbar hover,focus時のテキストカラー */
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:focus {
+        color:#E4A972;
+        background-color:rgba(255,255,255,0.7);
+    }
 }
 
-.lead {
-    font-size: 18px;
-    font-weight: 400;
+/* navbar ハンバーガー四角枠 */
+.navbar-default .navbar-toggle {
+border-color:transparent;
 }
-
+/* navbar ハンバーガー三本線 */
+.navbar-default .navbar-toggle .icon-bar {
+background-color: #ffffff;
+}
+/* navbar ハンバーガーボタン,タップとホバーした時の背景色 */
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+background-color:rgba(255,255,255,0.7);
+}
+/* navbar ハンバーガーボタン,タップとホバーした時の背景色 */
+.navbar-default .navbar-toggle:focus > .icon-bar{
+background-color:#9941D8;
+}
+.navbar-default .navbar-toggle:hover > .icon-bar{
+background-color:#9941D8;
+}
 .intro-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: left;
-    color: #f8f8f8;
+    color: #ffffff;
     background: url(../img/intro-bg.jpg) no-repeat center center;
     background-size: cover;
 }
