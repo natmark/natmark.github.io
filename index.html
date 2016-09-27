@@ -1,126 +1,242 @@
 <!DOCTYPE html>
-<html lang="jp">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-    <title>natmark</title>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <!-- CSS  -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  </head>
-  <body>
-    <!--Navigation-->
-    <nav class="pink accent-4" role="navigation">
-      <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo" style="font-size:22px;">Home</a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="otherresource/index.html">Other Resource</a></li>
-        </ul>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="article/index.html">Article</a></li>
-        </ul>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="portfolio/index.html">Portfolio</a></li>
-        </ul>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="interest/index.html">Interest</a></li>
-        </ul>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="about/index.html">About</a></li>
-        </ul>
-        <ul id="nav-mobile" class="side-nav">
-          <li><a href="#">Home</a></li>
-          <li><a href="about/index.html">About</a></li>
-          <li><a href="interest/index.html">Interest</a></li>
-          <li><a href="portfolio/index.html">Portfolio</a></li>
-          <li><a href="article/index.html">Article</a></li>
-          <li><a href="otherresource/index.html">Other Resource</a></li>
-        </ul>
+    <title>n_atmark</title>
 
-        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-      </div>
+    <!-- Bootstrap Core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/cosmo/bootstrap.min.css" rel="stylesheet" id="themesid">
+
+    <!-- Custom CSS -->
+    <link href="./Assets/css/custom.css" rel="stylesheet">
+    <link href="./Assets/css/card.css" rel="stylesheet">
+    <link href="./Assets/css/label.css" rel="stylesheet">
+    <link href="./Assets/css/hatena.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+    
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="#">Atsuya Sato</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#hatena">Hatena</a>
+                    </li>
+                    <li>
+                        <a href="#project">Project</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
     </nav>
 
-    <!--Pallalex-->
-  <div class="parallax-container">
-    <div class="parallax"><img src="img/parallax1.jpg"></div>
-
-    <!--Profile Card-->
-    <div class="section no-pad-bot" id="index-banner">
-      <div class="container">
-        <br><br>
-        <div class="card hoverable small">
-          <div class="card-image">
-            <img src="img/banner.jpg" style="opacity:0.6;">
-          </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
-            <p><span class="card-title pink-text text-darken-4">Welcome to my portfolio page!!</span></p>
-          </div>
-          <!--contents of card-->
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">About me<i class="material-icons right">close</i></span>
-            <blockquote>
-              <p>公立はこだて未来大学 システム情報科学部</p>
-              <p>佐藤　敦也</p>
-              <br>
-              <p>Mail:<a href="mailto:b1015006@fun.ac.jp">b1015006@fun.ac.jp</a></p>
-              <p>GitHub:<a href="https://github.com/natmark">github.com/natmark</a><span class="right"><a href="about/index.html">detail</a></span></p>
-            </blockquote>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-  <div class="section white">
-    <div class="row container">
-      <h3 class="header">Activity</h3>
-      <hr></hr>
-      <a href="#!" class="btn pink accent-4" onclick="Materialize.showStaggeredList('#staggered-test')">Click Me</a>
-        <ul id="staggered-test">
-          <li style="opacity: 0;">
-            <h4><a href="article/archive/2016_0429.html">てくふぁんでLTしました！(2016)</a></h4>
-            <p>[NEW]2016/04/29</p>
-          </li>
-          <li style="opacity: 0;">
-            <h5><a href="http://www.atmarkit.co.jp/ait/articles/1510/20/news010.html">@ITにインタビュー記事が掲載されました！</a></h5>
-            <p>2015/10/20</p>
-          </li>
-          <li style="opacity: 0;">
-            <h5><a href="article/archive/0821.html">高校生アプリ開発サマーキャンプでプレゼンをしました</a></h5>
-            <p>2015/8/21</p>
-          </li>
-          <li style="opacity: 0;">
-            <h5><a href="article/archive/0707.html">函館バスロケーションbot【非公式】のBeta版を公開しました</a></h5>
-            <p>2015/7/7</p>
-          </li>
-        </ul>
-    </div>
-  </div>
-
- <div class="section white">
-    <div class="row container">
-      <a href="old/index.html">以前のサイトはこちら</a>
-    </div>
-  </div>
-    <!--Footer-->
-    <footer class="page-footer">
-      <div class="footer-copyright">
+    <!-- Header -->
+    <div class="intro-header">
         <div class="container">
-        © 2016 AtsuyaSato,All rights reserved.
-
-        <a class="grey-text text-lighten-4 right" href="http://materializecss.com/">Powered by Materialize</a>
-
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h2>&lt;/n_atmark&gt;</h2>
+                        <h4>Welcome to my portfolio page.</h4>
+                        <hr align="left" class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                            <li>
+                                <a href="https://www.facebook.com/atsuya.sato.10" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i><span class="network-name">Facebook</span></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/natmark" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/n_atmark/" class="btn btn-default btn-lg"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.intro-header -->
+
+    <!-- Page Content -->
+    <a name="about"></a>
+    <div class="content-section-a">
+        <div class="container">
+            <div class="row">
+                 <div class="col-lg-3 col-sm-6">
+                    <div class="card hovercard">
+                        <div class="cardheader">
+                        </div>
+                        <div class="avatar">
+                            <img alt="" src="https://scontent.cdninstagram.com/t51.2885-19/s150x150/12139646_1095563483801551_650718318_a.jpg">
+                        </div>
+                        <div class="info">
+                            <div class="title">
+                                Atsuya Sato
+                            </div>
+                            <div class="spacer"></div>
+                            <div class="desc">Future University Hakodate</div>
+                            <div class="desc">Student/iOS Developer</div>
+                            <div class="desc"><i class="fa fa-envelope fa-fw"></i> <a href="mailto:b1015006&#64;fun.ac.jp">b1015006&#64;fun.ac.jp</a></div>
+                            <div class="desc"><i class="fa fa-home" aria-hidden="true"></i> <a href="https://natmark.github.io">natmark.github.io</a></div>
+                            <div class="desc"><i class="fa fa-facebook fa-fw"></i> <a href="https://www.facebook.com/atsuya.sato.10">atsuya.sato.10</a></div>
+                            <div class="desc"><i class="fa fa-instagram fa-fw"></i> <a href="https://www.instagram.com/n_atmark/">n_atmark</a></div>
+                            <div class="desc"><i class="fa fa-github fa-fw"></i> <a href="https://github.com/natmark">natmark</a></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-7 col-lg-offset-1 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">$whoami<br></h2>
+                    <p class="lead">
+                        <font color="mediumpurple">●</font> 佐藤 敦也 / Atsuya Sato
+                        <br>
+                        <font color="mediumpurple">●</font> 公立はこだて未来大学 システム情報科学部<br>システム情報科学科 知能システムコース 2年
+                        <br>
+                    </p>
+                    <div class="tag">
+                        <p>
+                            <font color="mediumpurple">●</font>★Favorite
+                        </p>
+                        <div class="label label-main label-info"><div class="label-text"><i class="fa fa-terminal fa-fw"></i></div>Programming</div>
+                        <div class="label label-main label-warning"><div class="label-text"><i class="fa fa-camera fa-fw"></i></div>Photo</div>
+                        <div class="label label-main label-success"><div class="label-text"><i class="fa fa-plane fa-fw"></i></div>Trip</div>
+                        <div class="label label-main label-danger"><div class="label-text"><i class="fa fa-android fa-fw"></i></div>AI</div>
+                        <div class="label label-main label-primary"><div class="label-text"><i class="fa fa-area-chart fa-fw"></i></div>Data Science</div>
+                    </div>
+                    <br \>
+                    <div class="tag">
+                        <p>
+                            <font color="mediumpurple">●</font> &lt;/&gt;code
+                            <br \>&emsp;&emsp;
+                            <font size="2px">
+                                <font color="purple">&lt;/&gt;Advanced</font>&emsp;<font color="green">&lt;/&gt;Intermediate</font>&emsp;<font color="black">&lt;/&gt;Elementary</font>
+                            </font>
+                        </p>
+                        <div class="label label-main label-info"><div class="label-text"><i class="fa fa-code fa-fw"></i></div>Swift</div>
+                        <div class="label label-main label-info"><div class="label-text"><i class="fa fa-code fa-fw"></i></div>Objective-C</div>
+                        <div class="label label-main label-success"><div class="label-text"><i class="fa fa-code fa-fw"></i></div>Node.js</div>
+                        <div class="label label-main label-success"><div class="label-text"><i class="fa fa-code fa-fw"></i></div>C#</div>
+                        <div class="label label-main label-success"><div class="label-text"><i class="fa fa-code fa-fw"></i></div>Processing</div>
+                        <div class="label label-main label-success"><div class="label-text"><i class="fa fa-code fa-fw"></i></div>Java</div>
+                        <div class="label label-main label-default"><div class="label-text"><i class="fa fa-code fa-fw"></i></div>Python</div>
+                        <div class="label label-main label-default"><div class="label-text"><i class="fa fa-code fa-fw"></i></div>Lisp</div>
+                        <div class="label label-main label-default"><div class="label-text"><i class="fa fa-code fa-fw"></i></div>Javascript/HTML/CSS</div> . . .
+                    </div>
+                </div>
+                    <!--<img src="https://scontent.cdninstagram.com/t51.2885-19/s150x150/12139646_1095563483801551_650718318_a.jpg" class="img-circle">　
+                    <img class="img-responsive" src="http://blackrockdigital.github.io/startbootstrap-landing-page/img/ipad.png" alt="">-->
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.content-section-a -->
+    
+    <a name="hatena"></a>
+    <div class="content-section-b">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Hatena Blog</h2>
+                    <p class="lead">技術系の記事や、イベント参加の記事などを<a href="http://natmark.hateblo.jp/">はてなブログ</a>で書いています。</p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <!-- はてなブログの最新記事 -->
+                    <div class="hatena-module-title">
+                     <a href="http://natmark.hateblo.jp/archive">Recent entries</a>
+                    </div>
+                    <!-- 新しい記事を表示する -->
+                    <div id="new_entries_feed" align="center">Now Loading...</div>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.content-section-b -->
+
+    <a name="project"></a>
+    <div class="content-section-a">
+        <div class="container">
+            <div class="row">
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <h2 class="section-heading">Project<br></h2>
+                <p class="lead">I'm sorry.<br \>This section is under construction.</p>
+            </div>
+            <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                <img class="img-responsive" src="http://blackrockdigital.github.io/startbootstrap-landing-page/img/phones.png" alt="">
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#hatena">Hatena</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#project">Project</a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted small">Copyright &copy; n_atmark 2016. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
     </footer>
-    <!--Scripts-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.js"></script>
-    <script src="js/init.js"></script>
-    <script src="home.js"></script>
-  </body>
+    <script src="https://www.google.com/jsapi"></script>
+    <script src="./Assets/js/hatena.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </body>
 </html>
