@@ -1,0 +1,24 @@
+.tag .label-text {
+    position: relative;
+    left: -18px;
+    display: inline-block;
+    padding: 6px 12px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 5px 0 0 5px;
+    margin:3px;
+}
+
+.tag .label-main {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.tag .label {
+    padding:6px 15px;
+    border-radius: 5px 0 0 5px;
+    margin:1px;
+}
+.tag p{
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
