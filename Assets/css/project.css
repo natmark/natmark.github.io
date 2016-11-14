@@ -19,12 +19,17 @@
   margin-bottom: 20px;
   text-align: center;
   color: #333;
+  height:30px;
   word-wrap: break-word;
 }
 .project-text {
   color: #777;
   font-size: 14px;
   line-height: 1.5;
+  height:30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .project-tag{
   float: left;
