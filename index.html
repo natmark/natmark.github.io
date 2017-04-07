@@ -54,6 +54,9 @@
                         <a href="#hatena">Hatena</a>
                     </li>
                     <li>
+                        <a href="#qiita">Qiita</a>
+                    </li>
+                    <li>
                         <a href="#project">Project</a>
                     </li>
                 </ul>
@@ -172,13 +175,13 @@
     <div class="content-section-b">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Hatena Blog</h2>
-                    <p class="lead">技術系の記事や、イベント参加の記事などを<a href="http://natmark.hateblo.jp/">はてなブログ</a>で書いています。</p>
+                    <p class="lead">イベント参加の記事などを<a href="http://natmark.hateblo.jp/">はてなブログ</a>で書いています。</p>
                 </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                <div class="col-lg-5 col-sm-6">
                     <!-- はてなブログの最新記事 -->
                     <div class="hatena-module-title">
                      <a href="http://natmark.hateblo.jp/archive">Recent entries</a>
@@ -192,14 +195,38 @@
     </div>
     <!-- /.content-section-b -->
 
-    <a name="project"></a>
+    <a name="qiita"></a>
     <div class="content-section-a">
+        <div class="container">
+            <div class="row">
+              <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                  <hr class="section-heading-spacer">
+                  <div class="clearfix"></div>
+                  <h2 class="section-heading">Qiita</h2>
+                  <p class="lead">技術系の記事を<a href="http://qiita.com/natmark">Qiita</a>で書いています。</p>
+              </div>
+              <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                  <!-- はてなブログの最新記事 -->
+                  <div class="qiita-module-title">
+                   <a href="http://qiita.com/natmark">Recent entries</a>
+                  </div>
+                  <!-- 新しい記事を表示する -->
+                  <div id="qiita_new_entries_feed" align="center">Now Loading...</div>
+              </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.content-section-a-->
+
+    <a name="project"></a>
+    <div class="content-section-b">
         <div class="container">
             <div class="row">
               <div class="col-lg-5">
                 <hr class="section-heading-spacer">
                 <div class="clearfix"></div>
-                <h2 class="section-heading">Project<br></h2>
+                <h2 class="section-heading">Projects<br></h2>
               </div>
             </div>
             <br>
@@ -229,7 +256,11 @@
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="#project">Project</a>
+                            <a href="#qiita">Qiita</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#project">Projects</a>
                         </li>
                     </ul>
                     <p class="copyright text-muted small">Copyright &copy; n_atmark 2016. All Rights Reserved</p>
@@ -241,6 +272,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="./Assets/js/hatena.js"></script>
+    <script src="./Assets/js/qiita.js"></script>
     <script src="./Assets/js/project.js"></script>
     </body>
 </html>
