@@ -30,5 +30,3 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # jekyll-theme-type
 gem "jekyll-theme-type", "~>1.1"
-
-
