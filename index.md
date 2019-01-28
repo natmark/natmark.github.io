@@ -55,6 +55,7 @@ Future University Hakodate / Department of Complex and Intelligent Systems
 |年|月| <center>登壇・発表歴</center>|<center>備考</center>|
 |:--:|:--:|:---------|:------|
 |2018|8|iOSDC Japan 2018|オープンソースMDMのmicromdmを用いて個人でデバイス管理をやってみる - [Slide](https://speakerdeck.com/natmark/iosdc2018-micromdm)|
+|2019|1|IEICE/MoNA研究会|学習済みモデルが持つ推論機能に対するアクセス制御の実現 - [paper](https://www.ieice.org/ken/paper/20190117E1jb/)|
 
 
 
