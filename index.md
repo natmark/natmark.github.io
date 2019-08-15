@@ -38,10 +38,6 @@ permalink: /
 - Speaker Deck: [natmark](https://speakerdeck.com/natmark/)
 - Wantedly: [佐藤 敦也](https://www.wantedly.com/users/11434799)
 
-### 所属
-公立はこだて未来大学 システム情報科学部 複雑系知能学科  
-Future University Hakodate / Department of Complex and Intelligent Systems
-
 ### 経歴
 
 |年|月| <center>学歴・職歴</center>|
