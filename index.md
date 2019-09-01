@@ -29,7 +29,7 @@ permalink: /
 
 ---
 
-- Mail: b1015006[@]fun.ac.jp
+- Mail: natmark0918[at]gmail.com
 - GitHub: [natmark](https://github.com/natmark)
 - Twitter: [n_atmark](https://twitter.com/n_atmark)
 - Facebook: [Atsuya Sato](https://www.facebook.com/atsuya.sato.10)
