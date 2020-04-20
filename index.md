@@ -55,5 +55,10 @@ permalink: /
 |2018|8|iOSDC Japan 2018|オープンソースMDMのmicromdmを用いて個人でデバイス管理をやってみる - [Slide](https://speakerdeck.com/natmark/iosdc2018-micromdm)|
 |2019|1|IEICE/MoNA研究会|学習済みモデルが持つ推論機能に対するアクセス制御の実現 - [paper](https://www.ieice.org/ken/paper/20190117E1jb/)|
 
+### 執筆歴
+
+|年|月| <center>執筆歴</center>|<center>備考</center>|
+|:--:|:--:|:---------|:------|
+|2020|2|WebDB+Press Vol.115|iOS13徹底活用 1章・3章 - [link](https://gihyo.jp/magazine/wdpress/archive/2020/vol115)|
 
 
