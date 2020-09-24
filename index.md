@@ -54,6 +54,7 @@ permalink: /
 |:--:|:--:|:---------|:------|
 |2018|8|iOSDC Japan 2018|オープンソースMDMのmicromdmを用いて個人でデバイス管理をやってみる - [Slide](https://speakerdeck.com/natmark/iosdc2018-micromdm)|
 |2019|1|IEICE/MoNA研究会|学習済みモデルが持つ推論機能に対するアクセス制御の実現 - [paper](https://www.ieice.org/ken/paper/20190117E1jb/)|
+|2020|9|iOSDC Japan 2020|クックパッドが、革新的な方法でまったく新しい買い物体験を皆様にお届けします - [Slide](https://speakerdeck.com/yujif/iosdc-japan-2020-day-2-cookpad)|
 
 ### 執筆歴
 
