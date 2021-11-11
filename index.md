@@ -55,11 +55,13 @@ permalink: /
 |2018|8|iOSDC Japan 2018|オープンソースMDMのmicromdmを用いて個人でデバイス管理をやってみる - [Slide](https://speakerdeck.com/natmark/iosdc2018-micromdm)|
 |2019|1|IEICE/MoNA研究会|学習済みモデルが持つ推論機能に対するアクセス制御の実現 - [paper](https://www.ieice.org/ken/paper/20190117E1jb/)|
 |2020|9|iOSDC Japan 2020|クックパッドが、革新的な方法でまったく新しい買い物体験を皆様にお届けします - [Slide](https://speakerdeck.com/yujif/iosdc-japan-2020-day-2-cookpad)|
+|2021|9|iOSDC Japan 2021|SwiftUI.Textを使いこなす5分間 - [Slide](https://speakerdeck.com/natmark/iosdc-swiftui-text)|
+|2021|9|iOSDC Japan 2021 After Party|チームでSwiftUIを書くために ~読みやすく保守しやすいSwiftUIの設計について考えたこと~ - [Slide](https://speakerdeck.com/natmark/after-party-iosdc-japan-2021-swiftui)|
 
 ### 執筆歴
 
 |年|月| <center>執筆歴</center>|<center>備考</center>|
 |:--:|:--:|:---------|:------|
 |2020|2|WebDB+Press Vol.115|iOS13徹底活用 1章・3章 - [link](https://gihyo.jp/magazine/wdpress/archive/2020/vol115)|
-
+|2021|11|Cookpad Techlife|既存実装を活用しつつJetpack Composeを用いてクックパッドAndroidアプリの買い物機能を高速に開発している話 - [link](https://techlife.cookpad.com/entry/2021/11/11/kaimono-jetpack-compose)|
 
