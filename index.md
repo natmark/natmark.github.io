@@ -64,4 +64,5 @@ permalink: /
 |:--:|:--:|:---------|:------|
 |2020|2|WebDB+Press Vol.115|iOS13徹底活用 1章・3章 - [link](https://gihyo.jp/magazine/wdpress/archive/2020/vol115)|
 |2021|11|Cookpad Techlife|既存実装を活用しつつJetpack Composeを用いてクックパッドAndroidアプリの買い物機能を高速に開発している話 - [link](https://techlife.cookpad.com/entry/2021/11/11/kaimono-jetpack-compose)|
+|2021|12|Cookpad Techlife|モバイルアプリ開発において宣言的UIフレームワークを利用する際のコンポーネント粒度についての考察 - [link](https://techlife.cookpad.com/entry/2021/12/17/103000)|
 
