@@ -57,6 +57,7 @@ permalink: /
 |2020|9|iOSDC Japan 2020|クックパッドが、革新的な方法でまったく新しい買い物体験を皆様にお届けします - [Slide](https://speakerdeck.com/yujif/iosdc-japan-2020-day-2-cookpad)|
 |2021|9|iOSDC Japan 2021|SwiftUI.Textを使いこなす5分間 - [Slide](https://speakerdeck.com/natmark/iosdc-swiftui-text)|
 |2021|9|iOSDC Japan 2021 After Party|チームでSwiftUIを書くために ~読みやすく保守しやすいSwiftUIの設計について考えたこと~ - [Slide](https://speakerdeck.com/natmark/after-party-iosdc-japan-2021-swiftui)|
+|2022|9|iOSDC Japan 2022|施策基盤としてのディープリンク〜なめらかにアプリが開く体験のために〜 - [Slide](https://speakerdeck.com/natmark/iosdc-japan-2022-deeplink)|
 
 ### 執筆歴
 
