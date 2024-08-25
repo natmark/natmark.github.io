@@ -47,6 +47,8 @@ permalink: /
 |2015|4|公立はこだて未来大学 システム情報科学部 入学|
 |2019|3|公立はこだて未来大学 システム情報科学部 複雑系知能学科 卒業|
 |2019|4|クックパッド株式会社 入社|
+|2024|1|クックパッド株式会社 退職|
+|2024|2|ピクシブ株式会社 入社|
 
 ### 登壇・発表歴
 
@@ -58,6 +60,7 @@ permalink: /
 |2021|9|iOSDC Japan 2021|SwiftUI.Textを使いこなす5分間 - [Slide](https://speakerdeck.com/natmark/iosdc-swiftui-text)|
 |2021|9|iOSDC Japan 2021 After Party|チームでSwiftUIを書くために ~読みやすく保守しやすいSwiftUIの設計について考えたこと~ - [Slide](https://speakerdeck.com/natmark/after-party-iosdc-japan-2021-swiftui)|
 |2022|9|iOSDC Japan 2022|施策基盤としてのディープリンク〜なめらかにアプリが開く体験のために〜 - [Slide](https://speakerdeck.com/natmark/iosdc-japan-2022-deeplink)|
+|2024|8|iOSDC Japan 2024|詳解UIWindow - [Slide](https://speakerdeck.com/natmark/iosdc-japan-2024-uiwindow)|
 
 ### 執筆歴
 
